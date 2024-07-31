@@ -1,4 +1,4 @@
-package com.dyong.Programmers.Level0;
+package com.dyong.programmers.level0;
 
     /*
     * 정수 num1과 num2가 매개변수로 주어집니다.

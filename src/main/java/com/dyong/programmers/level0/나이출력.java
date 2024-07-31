@@ -1,4 +1,4 @@
-package com.dyong.Programmers.Level0;
+package com.dyong.programmers.level0;
 
     /*
     머쓱이는 선생님이 몇 년도에 태어났는지 궁금해졌습니다.

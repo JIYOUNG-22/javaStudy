@@ -26,3 +26,17 @@ public class 짝수홀수개수 {
         return arr;
     }
 }
+
+/* 다른 사람의 풀이
+
+ public int[] solution(int[] num_list) {
+        int[] answer = new int[2];
+
+        for(int i = 0; i < num_list.length; i++)
+            answer[num_list[i] % 2]++;
+        // [index] : index 값이 0,1만 나오니까 위처럼 쓰는 것도 가능
+
+        return answer;
+    }
+
+ */

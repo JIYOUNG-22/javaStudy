@@ -1,9 +1,36 @@
 package com.dyong.baekjoon.bronze01;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Baekjoon_1672 {
+
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();  // 염기 서열의 길이
+        scanner.nextLine();
+        char[] dna = scanner.nextLine().toCharArray();  // 염기서열 배열에 넣기
+
+        char[][] dnaMap = {{'A', 'C', 'A', 'G'},
+                           {'C', 'G', 'T', 'A'},
+                           {'A', 'T', 'C', 'G'},
+                           {'G', 'A', 'G', 'T'}};
+
+        while(N != 1) {
+
+            for(int i = 0; i < dna.length; i++) {
+
+            }
+        }
+    }
+}
+
+
+
+
+    // 메모리 초과
+    /*public static void main(String[] args) {
 
         // 염기서열 입력 받아오기
         Scanner scanner = new Scanner(System.in);
@@ -27,14 +54,13 @@ public class Baekjoon_1672 {
 
             // 두 개의 염기를 하나의 염기로 치환
             if(temp.equals("AA") || temp.equals("AC") || temp.equals("GT") || temp.equals("CA") || temp.equals("TG")) dna.append("A");
-            if(temp.equals("AT") || temp.equals("GG") || temp.equals("CT") || temp.equals("TA") || temp.equals("TC")) dna.append("G");
-            if(temp.equals("AG") || temp.equals("GA") || temp.equals("CC")) dna.append("C");
-            if(temp.equals("GC") || temp.equals("CG") || temp.equals("TT")) dna.append("T");
+            else if(temp.equals("AT") || temp.equals("GG") || temp.equals("CT") || temp.equals("TA") || temp.equals("TC")) dna.append("G");
+            else if(temp.equals("AG") || temp.equals("GA") || temp.equals("CC")) dna.append("C");
+            else if(temp.equals("GC") || temp.equals("CG") || temp.equals("TT")) dna.append("T");
 
         }
 
         // 결과 출력
         System.out.println(dna);
 
-    }
-}
+    }*/

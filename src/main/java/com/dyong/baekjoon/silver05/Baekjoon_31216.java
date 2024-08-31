@@ -35,7 +35,7 @@ public class Baekjoon_31216 {
             for (int i = 2; i < Integer.MAX_VALUE; i++) {
                 count = false;
 
-                for (int j = 2; j <= i/2; j++) {
+                for (int j = 2; j <= Math.sqrt(i); j++) {
                     if (i % j == 0) {
                         count = true;
                         break;
@@ -50,7 +50,7 @@ public class Baekjoon_31216 {
             for (int i = prime.get(prime.size()-1)+1; i < Integer.MAX_VALUE; i++) {
                 count = false;
 
-                for (int j = 2; j <= i/2; j++) {
+                for (int j = 2; j <= Math.sqrt(i); j++) {
                     if (i % j == 0) {
                         count = true;
                         break;
